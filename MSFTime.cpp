@@ -30,7 +30,7 @@
 #include <HardwareSerial.h> // for Serial for logging
 #endif
 
-#include <Time.h>  // from http://www.pjrc.com/teensy/td_libs_Time.html - unzip it into your libraries folder
+#include <TimeLib.h>  // from http://www.pjrc.com/teensy/td_libs_Time.html - unzip it into your libraries folder
 
 #ifdef USE_AVR_INTERRUPTS
 #include <avr/interrupt.h>
