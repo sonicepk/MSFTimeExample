@@ -12,3 +12,7 @@ VCC 3 to 5 volts
 GND
 On/Off
 P - data pin to pin 0 on the Arduino
+
+For Ubuntu users
+Download the sketch and save it to the /home/sonicepk/snap/arduino/current/Arduino/MSFTimeExample
+Time Library will be installed in /home/sonicepk/snap/arduino/current/Arduino/libraries/Time 
