@@ -4,7 +4,7 @@
 // http://www.jarkman.co.uk/catalog/robots/msftime.htm
 
 // Decodes MSF time signals from a receiver like this:
-//  http://www.pvelectronics.co.uk/index.php?main_page=product_info&cPath=9&products_id=2
+// https://www.aliexpress.com/item/1005004857803690.html?spm=a2g0o.order_list.order_list_main.33.678818020qfFwR
 // and integrates with the Time library to provide a real-time clock
 
 // The algorithm used here is vulnerable to noise pulses, which will cause it to give up decoding the current signal.
@@ -17,7 +17,7 @@
 // which would be much more immune to noise, but this is good enough for my purposes.
 
 // Turn these on to see more of what we are receiving.
-//#define DEBUG 
+//#define DEBUG
 //#define EXTRA_DEBUG
 
 #define USE_AVR_INTERRUPTS // define this to use AVR interrupts, with the module wired to analogue pin 0
@@ -30,7 +30,7 @@
 #include <HardwareSerial.h> // for Serial for logging
 #endif
 
-#include <TimeLib.h>  // from http://www.pjrc.com/teensy/td_libs_Time.html - unzip it into your libraries folder
+#include <TimeLib.h>  // Install "Time" library by Paul Stoffregen from the Arduino Library Manager.
 
 #ifdef USE_AVR_INTERRUPTS
 #include <avr/interrupt.h>

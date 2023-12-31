@@ -10,8 +10,8 @@
 // LOLShield library: http://code.google.com/p/lolshield/source/browse/#svn%2Ftrunk%2Flib%253Fstate%253Dclosed
 
 
-#include <TimeLib.h>  // from http://www.pjrc.com/teensy/td_libs_Time.html - unzip it into your libraries folder
-#include "MSFTime.h" 
+#include <TimeLib.h>  // Install "Time" library by Paul Stoffregen from the Arduino Library Manager.
+#include "MSFTime.h"
 
 
 MSFTime MSF;// = MSFTime();
